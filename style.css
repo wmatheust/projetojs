@@ -1,0 +1,26 @@
+body {
+  background: rgb(25, 148, 149);
+  background: linear-gradient(
+    0deg,
+    rgba(25, 148, 149, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  text-align: center;
+  margin: 80px 200px;
+}
+
+div {
+  padding: 5px 15px;
+  border-radius: 3px;
+  display: inline-block;
+  border: 1px solid;
+}
+
+label {
+  padding: 5px 5px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #b0b0b3;
+}
